@@ -55,9 +55,10 @@ void PrintArray(int[,] array)
 
 void PrintArrayAvg(double[] array)
 {
+    Console.Write("Среднее арифметическое каждого столбца: ");
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write(array[i] + "; ");
+         Console.Write(array[i] + "; ");
     }
     Console.WriteLine();
 }
